@@ -1,0 +1,33 @@
+{
+	"title": "emptyColumns",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "comm"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": []
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

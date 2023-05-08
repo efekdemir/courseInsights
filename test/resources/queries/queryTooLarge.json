@@ -1,0 +1,15 @@
+{
+	"title": "queryTooLarge",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_dept"
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

@@ -1,0 +1,17 @@
+{
+	"title": "noUnderscore",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"noUnderscore": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"noUnderscore"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

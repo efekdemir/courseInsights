@@ -1,0 +1,13 @@
+{
+	"title": "badColumns",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

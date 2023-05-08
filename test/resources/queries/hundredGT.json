@@ -1,0 +1,17 @@
+{
+	"title": "hundredGT",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 100
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

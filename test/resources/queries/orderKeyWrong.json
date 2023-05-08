@@ -1,0 +1,15 @@
+{
+  "title": "orderKeyWrong",
+  "input": {
+    "WHERE": {},
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_dept",
+        "sections_avg"
+      ],
+      "ORDER": "sections_dpt"
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

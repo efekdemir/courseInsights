@@ -1,0 +1,13 @@
+{
+	"title": "veryBadColumns",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"noUnderscore"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

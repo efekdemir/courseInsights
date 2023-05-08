@@ -1,0 +1,16 @@
+{
+	"title": "emptyOR",
+	"input": {
+		"WHERE": {
+			"OR": []
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

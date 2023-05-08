@@ -1,0 +1,16 @@
+{
+	"title": "terribleWhere",
+	"input": {
+		"WHERE": {
+			"GT": {},
+			"AND": {},
+			"OR": {},
+			"LT": {},
+			"EQ": {},
+			"NOT": {},
+			"IS": {}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

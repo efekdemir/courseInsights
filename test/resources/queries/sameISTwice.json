@@ -1,0 +1,956 @@
+{
+	"title": "sameISTwice",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "adh*"
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "adh*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "teach adult",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "inst adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "dev wkshp/sem",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "com adult educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		},
+		{
+			"sections_title": "adul educ",
+			"sections_dept": "adhe"
+		}
+	]
+}

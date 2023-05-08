@@ -1,0 +1,148 @@
+{
+	"title": "validEqualQuery",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 69
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": "sections_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "busi",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "chem",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "comm",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "cpsc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "econ",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "educ",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "geog",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "geog",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "ital",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "ital",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "japn",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "math",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "musc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "phys",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "psyc",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "soci",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "span",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "stat",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "visa",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 69
+		},
+		{
+			"sections_dept": "wrds",
+			"sections_avg": 69
+		}
+	]
+}

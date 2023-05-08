@@ -1,0 +1,26 @@
+{
+	"title": "wrongColumnsName",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_deept",
+				"sections_ied",
+				"sections_aveg",
+				"sections_insetructor",
+				"sections_titlee",
+				"sections_paess",
+				"sections_faeil",
+				"sections_auedit",
+				"sections_uueid",
+				"sections_yeear"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

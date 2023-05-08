@@ -1,0 +1,183 @@
+{
+	"title": "validColumns",
+	"input": {
+		"WHERE": {
+			"OR": [
+				{
+					"AND": [
+						{
+							"GT": {
+								"sections_avg": 90
+							}
+						},
+						{
+							"IS": {
+								"sections_dept": "comm"
+							}
+						}
+					]
+				},
+				{
+					"EQ": {
+						"sections_avg": 95
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 92.45
+		},
+		{
+			"sections_avg": 92.45
+		},
+		{
+			"sections_avg": 94.5
+		},
+		{
+			"sections_avg": 94.5
+		},
+		{
+			"sections_avg": 94.56
+		},
+		{
+			"sections_avg": 94.56
+		},
+		{
+			"sections_avg": 94.75
+		},
+		{
+			"sections_avg": 94.75
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		},
+		{
+			"sections_avg": 95
+		}
+	]
+}

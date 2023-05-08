@@ -1,0 +1,16 @@
+{
+	"title": "emptyGT",
+	"input": {
+		"WHERE": {
+			"GT": {}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

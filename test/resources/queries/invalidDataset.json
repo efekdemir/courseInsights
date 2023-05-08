@@ -1,0 +1,18 @@
+{
+	"title": "invalidDataset",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"invalid_avg": 97
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"invalid_dept"
+			],
+			"ORDER": "invalid_avg"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

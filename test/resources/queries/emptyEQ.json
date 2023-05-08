@@ -1,0 +1,16 @@
+{
+	"title": "emptyEQ",
+	"input": {
+		"WHERE": {
+			"EQ": {}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

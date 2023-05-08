@@ -1,0 +1,372 @@
+{
+	"title": "asteriskBothandFront",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*a*"
+					}
+				},
+				{
+					"IS": {
+						"sections_dept": "c*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_title": "biom rsrch skill",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "biom rsrch skill",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "biom rsrch skill",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "biom rsrch skill",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "human physiology",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "hnrs human phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr mcr hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "intr grs hum ant",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv cel&mol phys",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "cardio&resp phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "renl&gastro phyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "mam endocrinolgy",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv neurophyl",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "adv lab physiol",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		},
+		{
+			"sections_title": "grad essay",
+			"sections_dept": "caps"
+		}
+	]
+}

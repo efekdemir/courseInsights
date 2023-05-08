@@ -1,0 +1,19 @@
+{
+  "title": "noOptions",
+  "input": {
+    "WHERE": {
+      "EQ": {
+        "sections_avg": 69
+      }
+    },
+    "NOOPTIONS": {
+      "COLUMNS": [
+        "sections_dept",
+        "sections_avg"
+      ],
+      "ORDER": "sections_avg"
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

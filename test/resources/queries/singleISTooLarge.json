@@ -1,0 +1,22 @@
+{
+	"title": "singleISTooLarge",
+	"input": {
+		"WHERE": {
+			"AND": [
+				{
+					"IS": {
+						"sections_dept": "*"
+					}
+				}
+			]
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_title",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "ResultTooLargeError"
+}

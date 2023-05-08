@@ -1,0 +1,17 @@
+{
+	"title": "twoSections",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_avg": 99
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections420_title"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

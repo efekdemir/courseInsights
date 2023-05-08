@@ -1,0 +1,41 @@
+{
+	"title": "tripleNot",
+	"input": {
+		"WHERE": {
+			"NOT": {
+				"NOT": {
+					"NOT": {
+						"GT": {
+							"sections_avg": 3
+						}
+					}
+				}
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_dept": "frst",
+			"sections_avg": 0
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0
+		},
+		{
+			"sections_dept": "lfs",
+			"sections_avg": 0
+		},
+		{
+			"sections_dept": "wood",
+			"sections_avg": 1
+		}
+	]
+}
