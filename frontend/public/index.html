@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+	<title>310 Frontend</title>
+	<link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<h1>GPA Booster Insights!</h1>
+
+<h2>Choose a Dataset</h2>
+
+<form>
+	<label for="dataset">Select a dataset from the following options:</label>
+	<select name="dataset" id="dataset">
+		<option value="">Loading...</option>
+	</select>
+	<button type="submit" id="dataset_button">Select!</button>
+</form>
+
+<script>
+	let selectedElement = document.getElementById('dataset');
+
+	function optionsPopulater() {
+		fetch("http://localhost:4321/datasets", {
+			method: 'GET',
+		})
+			.then(response => response.json())
+			.then(data => {
+				selectedElement.innerHTML = '';
+				let datasets;
+				if (Array.isArray(data.result)) {
+					datasets = data.result;
+				} else if (data.result) {
+					datasets = [data.result];
+				}
+				console.log(datasets);
+				if (Array.isArray(datasets) && datasets.length > 0) {
+					// console.log("true");
+					datasets.forEach((dataset) => {
+						let optionElement = new Option(dataset.id, dataset.id);
+						selectedElement.appendChild(optionElement);
+					});
+				} else {
+					// console.log("false");
+					let noDatasetsOption = new Option('No datasets added :(', '');
+					noDatasetsOption.selected = true;
+					noDatasetsOption.disabled = true;
+					selectedElement.appendChild(noDatasetsOption);
+				}
+			})
+			.catch(error => console.error(error));
+	}
+
+	optionsPopulater();
+
+	document.getElementById('dataset_button').addEventListener('click', event => {
+		event.preventDefault();
+		let selectedDataset = selectedElement.value;
+		console.log('Selected dataset:', selectedDataset);
+	});
+</script>
+
+<h2>Currently Chosen Dataset: <span id="selected_dataset"></span></h2>
+
+<br>
+
+<p id="success1" class="success"></p>
+<p id="failure1" class="failure"></p>
+
+<br>
+
+<h2>GPA Booster Finder</h2>
+<form>
+	Enter number to find courses with averages higher than: <label for="avg"></label><input type="text" name="avg"
+																							id="avg"> <br><br>
+	<button id="query_button" class="button">Find</button>
+</form>
+<br>
+
+<p id="success2" class="success"></p>
+<p id="failure2" class="failure"></p>
+
+<script type="text/javascript" src="/frontend.js"></script>
+</body>
+</html>
